@@ -3,6 +3,8 @@ radio.onReceivedNumber(function (receivedNumber) {
 })
 input.onButtonPressed(Button.A, function () {
     basic.showNumber(Ftemp)
+    basic.pause(2000)
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
     basic.showNumber(tempLOCAL)
